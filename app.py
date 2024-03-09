@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import click
 import pathlib
 from datetime import datetime
