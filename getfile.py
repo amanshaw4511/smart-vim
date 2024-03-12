@@ -62,8 +62,6 @@ def main(filename):
                 session.commit()
                 click.echo(file.fullpath)
             else:
-                # File not found in database, print a message
-                click.echo("File not found")
                 exit(1)
 
 
