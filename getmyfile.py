@@ -64,9 +64,11 @@ def main(filename):
             else:
                 exit(1)
 
-
-if __name__ == "__main__":
+def cli():
     try:
         main()
     except Exception as e:
         click.echo(f"Error: {e}")
+
+if __name__ == "__main__":
+    cli()
